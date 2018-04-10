@@ -7,12 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E92042DB207CDA3D00ACC90E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92042DA207CDA3D00ACC90E /* API.swift */; };
+		E92042DD207CDAFD00ACC90E /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92042DC207CDAFD00ACC90E /* Result.swift */; };
+		E92042DF207CDED500ACC90E /* Currencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92042DE207CDED500ACC90E /* Currencies.swift */; };
+		E92042E1207CE1EF00ACC90E /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92042E0207CE1EF00ACC90E /* ResultProtocol.swift */; };
+		E97BAD812079489B006B1A43 /* ShoppingCart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97BAD802079489B006B1A43 /* ShoppingCart.storyboard */; };
+		E97BAD83207948B1006B1A43 /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97BAD82207948B1006B1A43 /* ShoppingCartViewController.swift */; };
+		E97BAD8520794A22006B1A43 /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97BAD8420794A22006B1A43 /* CartCell.swift */; };
+		E97BAD8720794CAE006B1A43 /* RemoveItemDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97BAD8620794CAE006B1A43 /* RemoveItemDelegate.swift */; };
+		E9A22E1D2079521C003FA84D /* ShoppingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A22E1C2079521C003FA84D /* ShoppingListViewModel.swift */; };
+		E9A22E202079523D003FA84D /* ShoppingCartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A22E1F2079523D003FA84D /* ShoppingCartViewModel.swift */; };
 		E9DA86DE207802E200F9E54F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA86DD207802E200F9E54F /* AppDelegate.swift */; };
-		E9DA86E0207802E200F9E54F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA86DF207802E200F9E54F /* ViewController.swift */; };
-		E9DA86E3207802E200F9E54F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DA86E1207802E200F9E54F /* Main.storyboard */; };
 		E9DA86E5207802E300F9E54F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9DA86E4207802E300F9E54F /* Assets.xcassets */; };
 		E9DA86E8207802E300F9E54F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DA86E6207802E300F9E54F /* LaunchScreen.storyboard */; };
 		E9DA86F3207802E300F9E54F /* R3PI_Shopping_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA86F2207802E300F9E54F /* R3PI_Shopping_ListTests.swift */; };
+		E9DA87012078034600F9E54F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA87002078034600F9E54F /* Item.swift */; };
+		E9DA8703207803FA00F9E54F /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA8702207803FA00F9E54F /* ShoppingListViewController.swift */; };
+		E9DA87052078040E00F9E54F /* ShoppingList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DA87042078040E00F9E54F /* ShoppingList.storyboard */; };
+		E9DA87082078D59600F9E54F /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA87072078D59600F9E54F /* ItemCell.swift */; };
+		E9DA870B20793B3400F9E54F /* AddItemDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA870A20793B3400F9E54F /* AddItemDelegate.swift */; };
+		E9DE199B20795E020081AD64 /* UIViewController+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DE199A20795E020081AD64 /* UIViewController+Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +40,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E92042DA207CDA3D00ACC90E /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		E92042DC207CDAFD00ACC90E /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		E92042DE207CDED500ACC90E /* Currencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currencies.swift; sourceTree = "<group>"; };
+		E92042E0207CE1EF00ACC90E /* ResultProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultProtocol.swift; sourceTree = "<group>"; };
+		E97BAD802079489B006B1A43 /* ShoppingCart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ShoppingCart.storyboard; sourceTree = "<group>"; };
+		E97BAD82207948B1006B1A43 /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
+		E97BAD8420794A22006B1A43 /* CartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
+		E97BAD8620794CAE006B1A43 /* RemoveItemDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveItemDelegate.swift; sourceTree = "<group>"; };
+		E9A22E1C2079521C003FA84D /* ShoppingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewModel.swift; sourceTree = "<group>"; };
+		E9A22E1F2079523D003FA84D /* ShoppingCartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewModel.swift; sourceTree = "<group>"; };
 		E9DA86DA207802E200F9E54F /* R3PI Shopping List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "R3PI Shopping List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9DA86DD207802E200F9E54F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9DA86DF207802E200F9E54F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E9DA86E2207802E200F9E54F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9DA86E4207802E300F9E54F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9DA86E7207802E300F9E54F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9DA86E9207802E300F9E54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9DA86EE207802E300F9E54F /* R3PI Shopping ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "R3PI Shopping ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9DA86F2207802E300F9E54F /* R3PI_Shopping_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3PI_Shopping_ListTests.swift; sourceTree = "<group>"; };
 		E9DA86F4207802E300F9E54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DA87002078034600F9E54F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E9DA8702207803FA00F9E54F /* ShoppingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
+		E9DA87042078040E00F9E54F /* ShoppingList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ShoppingList.storyboard; sourceTree = "<group>"; };
+		E9DA87072078D59600F9E54F /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		E9DA870A20793B3400F9E54F /* AddItemDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemDelegate.swift; sourceTree = "<group>"; };
+		E9DE199A20795E020081AD64 /* UIViewController+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utilities.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E92042D9207CD9DD00ACC90E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E92042DA207CDA3D00ACC90E /* API.swift */,
+				E92042DC207CDAFD00ACC90E /* Result.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		E9A22E1B2079520C003FA84D /* Shopping List */ = {
+			isa = PBXGroup;
+			children = (
+				E9DA8702207803FA00F9E54F /* ShoppingListViewController.swift */,
+				E9A22E1C2079521C003FA84D /* ShoppingListViewModel.swift */,
+			);
+			path = "Shopping List";
+			sourceTree = "<group>";
+		};
+		E9A22E1E20795228003FA84D /* Shopping Cart */ = {
+			isa = PBXGroup;
+			children = (
+				E97BAD82207948B1006B1A43 /* ShoppingCartViewController.swift */,
+				E9A22E1F2079523D003FA84D /* ShoppingCartViewModel.swift */,
+			);
+			path = "Shopping Cart";
+			sourceTree = "<group>";
+		};
 		E9DA86D1207802E200F9E54F = {
 			isa = PBXGroup;
 			children = (
@@ -77,9 +132,14 @@
 		E9DA86DC207802E200F9E54F /* R3PI Shopping List */ = {
 			isa = PBXGroup;
 			children = (
+				E92042D9207CD9DD00ACC90E /* API */,
+				E9DE199920795DF30081AD64 /* Extensions */,
+				E9DA870920793B1F00F9E54F /* Protocols */,
+				E9DA87062078D57D00F9E54F /* Cells */,
+				E9DA86FF2078032900F9E54F /* Models */,
+				E9DA86FE2078032100F9E54F /* Storyboards */,
+				E9DA86FD2078031A00F9E54F /* View Controllers */,
 				E9DA86DD207802E200F9E54F /* AppDelegate.swift */,
-				E9DA86DF207802E200F9E54F /* ViewController.swift */,
-				E9DA86E1207802E200F9E54F /* Main.storyboard */,
 				E9DA86E4207802E300F9E54F /* Assets.xcassets */,
 				E9DA86E6207802E300F9E54F /* LaunchScreen.storyboard */,
 				E9DA86E9207802E300F9E54F /* Info.plist */,
@@ -94,6 +154,60 @@
 				E9DA86F4207802E300F9E54F /* Info.plist */,
 			);
 			path = "R3PI Shopping ListTests";
+			sourceTree = "<group>";
+		};
+		E9DA86FD2078031A00F9E54F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E9A22E1E20795228003FA84D /* Shopping Cart */,
+				E9A22E1B2079520C003FA84D /* Shopping List */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E9DA86FE2078032100F9E54F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E9DA87042078040E00F9E54F /* ShoppingList.storyboard */,
+				E97BAD802079489B006B1A43 /* ShoppingCart.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E9DA86FF2078032900F9E54F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9DA87002078034600F9E54F /* Item.swift */,
+				E92042DE207CDED500ACC90E /* Currencies.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9DA87062078D57D00F9E54F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E9DA87072078D59600F9E54F /* ItemCell.swift */,
+				E97BAD8420794A22006B1A43 /* CartCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E9DA870920793B1F00F9E54F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E9DA870A20793B3400F9E54F /* AddItemDelegate.swift */,
+				E97BAD8620794CAE006B1A43 /* RemoveItemDelegate.swift */,
+				E92042E0207CE1EF00ACC90E /* ResultProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E9DE199920795DF30081AD64 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E9DE199A20795E020081AD64 /* UIViewController+Utilities.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,9 +291,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E97BAD812079489B006B1A43 /* ShoppingCart.storyboard in Resources */,
 				E9DA86E8207802E300F9E54F /* LaunchScreen.storyboard in Resources */,
 				E9DA86E5207802E300F9E54F /* Assets.xcassets in Resources */,
-				E9DA86E3207802E200F9E54F /* Main.storyboard in Resources */,
+				E9DA87052078040E00F9E54F /* ShoppingList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +312,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9DA86E0207802E200F9E54F /* ViewController.swift in Sources */,
+				E9A22E202079523D003FA84D /* ShoppingCartViewModel.swift in Sources */,
+				E92042DD207CDAFD00ACC90E /* Result.swift in Sources */,
+				E9DE199B20795E020081AD64 /* UIViewController+Utilities.swift in Sources */,
+				E9DA87082078D59600F9E54F /* ItemCell.swift in Sources */,
+				E97BAD8520794A22006B1A43 /* CartCell.swift in Sources */,
+				E92042E1207CE1EF00ACC90E /* ResultProtocol.swift in Sources */,
+				E9DA87012078034600F9E54F /* Item.swift in Sources */,
+				E97BAD8720794CAE006B1A43 /* RemoveItemDelegate.swift in Sources */,
+				E9A22E1D2079521C003FA84D /* ShoppingListViewModel.swift in Sources */,
+				E97BAD83207948B1006B1A43 /* ShoppingCartViewController.swift in Sources */,
+				E9DA870B20793B3400F9E54F /* AddItemDelegate.swift in Sources */,
 				E9DA86DE207802E200F9E54F /* AppDelegate.swift in Sources */,
+				E92042DB207CDA3D00ACC90E /* API.swift in Sources */,
+				E92042DF207CDED500ACC90E /* Currencies.swift in Sources */,
+				E9DA8703207803FA00F9E54F /* ShoppingListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +349,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E9DA86E1207802E200F9E54F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E9DA86E2207802E200F9E54F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E9DA86E6207802E300F9E54F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -360,6 +480,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "R3PI Shopping List/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -377,6 +498,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "R3PI Shopping List/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

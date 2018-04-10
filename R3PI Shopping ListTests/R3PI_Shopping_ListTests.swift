@@ -11,26 +11,31 @@ import XCTest
 
 class R3PI_Shopping_ListTests: XCTestCase {
     
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testEndpointIsSuccess() {
+        let api = API()
+        let promise = expectation(description: "isSuccess")
+        api.requestCurrencies { result in
+            if result.isSuccess {
+                promise.fulfill()
+            } else {
+                XCTFail("Error: \(result.error?.localizedDescription)")
+            }
         }
+        waitForExpectations(timeout: 5, handler: nil)
     }
     
+    func testExchangeRate() {
+        let milk = Item(name: "Milk", price: 1.30, imageName: "milk")
+        let cart = ["Milk": [milk,milk]]
+        let currency = ["EUR": 0.80]
+        let rate = currency["EUR"] ?? 1.0
+        var sum: Double = 0.0
+        for key in cart.keys {
+            guard let items = cart[key] else { continue }
+            sum += items.reduce(0, { $0 + $1.price })
+        }
+        let subtotal = sum * rate
+        let expectedSubtotal = 2.08
+        XCTAssertEqual(expectedSubtotal, subtotal)
+    }
 }
